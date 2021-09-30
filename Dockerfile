@@ -24,7 +24,7 @@ LABEL maintainer="horihiro"
 USER root
 
 COPY --from=build /usr/local/sbin/dnsmasq /usr/local/sbin/dnsmasq
-# COPY dnsmasq.conf /etc/dnsmasq.conf
+COPY dnsmasq.conf /etc/dnsmasq.conf
 
 EXPOSE 53 53/udp
 ENTRYPOINT ["dnsmasq", "--no-daemon"]
