@@ -1,5 +1,5 @@
-# Simple DNS forwarder
-This is a conatiner image of simple DNS forwarder which works on Azure Container Instances.
+# Simple DNS forwarder for Azure VNET
+This is a conatiner image of simple DNS forwarder, which works on Azure Container Instances, for Azure VNET.
 
 ## Background
 As [this documentation](https://docs.microsoft.com/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder) describes, it is needed to use DNS forwarder in order that client PCs which connects to the VNET via ExpressRoute / P2S VPN and so on use Azure Private DNS Zone. This is because the Private DNS Zone can be used only for name resolution query from nodes in the VNET.
