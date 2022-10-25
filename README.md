@@ -14,7 +14,7 @@ If you want to this on Azure Container Instances(ACI) in your Virtual Network, p
 
     - Select `Docker Hub or other registry` for `Image source`
     - Select `Public` for `Image type`
-    - Input `ghcr.io/horihiro/simple-dns-forwerder:<tagName>` as `Image` and replace `<tagName>` to a tag from the [list](https://github.com/horihiro/simple-dns-forwarder/pkgs/container/simple-dns-forwarder/versions)
+    - Input `ghcr.io/horihiro/simple-dns-forwarder:<tagName>` as `Image` and replace `<tagName>` to a tag from the [list](https://github.com/horihiro/simple-dns-forwarder/pkgs/container/simple-dns-forwarder/versions)
     - Select `Linux` for `OS type`
       
     ![image](https://user-images.githubusercontent.com/4566555/135413167-94e03e07-18f8-4ec6-8391-eafc33442000.png)
